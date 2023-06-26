@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Unit Converter</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Unit Converter</h1>
+  <div class="converter">
+    <input type="num" id="ipVal" placeholder="Enter value">
+    <select id="ipUnit">
+      <option value="m">Meter</option>
+      <option value="km">Kilometer </option>
+      <option value="ft">Foot </option>
+      <option value="mi">Mile </option> 
+    </select>
+
+
+    <button onclick="convert()">Convert</button> 
+    <select id="opUnit">
+      <option value="m">Meter</option>
+      <option value="km">Kilometer </option>
+      <option value="ft">Foot </option>
+      <option value="mi">Mile </option>
+    </select>
+    <input type="text" id="opVal" readonly>
+  </div>
+
+  <div class="dark-mode">Dark Mode</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
